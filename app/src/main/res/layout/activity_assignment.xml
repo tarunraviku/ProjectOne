@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/blueLight">
+
+    <EditText
+        android:id="@+id/edit_assignment_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/assignment_name"
+        android:textColor="@color/white"
+        android:background="@drawable/edit_text_background"/>
+
+
+    <EditText
+        android:id="@+id/edit_due_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/due_date"
+        android:textColor="@color/white"
+        android:background="@drawable/edit_text_background"/>
+
+    <Button
+        android:id="@+id/btn_add_assignment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/add_assignment"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/bluePrimary"/>
+
+    <ListView
+        android:id="@+id/list_assignments"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <Button
+        android:id="@+id/btn_goto_courses"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/go_to_courses"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/bluePrimary"/>
+
+    <Button
+        android:id="@+id/btn_goto_todo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/go_to_todo"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/bluePrimary"/>
+
+
+</LinearLayout>
